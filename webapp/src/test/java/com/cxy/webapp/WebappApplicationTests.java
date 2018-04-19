@@ -1,4 +1,4 @@
-package com.example.webapp;
+package com.cxy.webapp;
 
 import org.assertj.core.util.Lists;
 import org.junit.Test;

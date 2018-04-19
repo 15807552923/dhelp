@@ -18,6 +18,7 @@
         <module name="monitoring-service" />
         <module name="uaa-service" />
         <module name="user-service" />
+        <module name="web-user" />
         <module name="webapp" />
         <module name="webservice" />
         <module name="zipkin-service" />
@@ -38,6 +39,7 @@
       <module name="parent" target="1.7" />
       <module name="uaa-service" target="1.8" />
       <module name="user-service" target="1.8" />
+      <module name="web-user" target="1.8" />
       <module name="webapp" target="1.8" />
       <module name="webservice" target="1.7" />
       <module name="zipkin-service" target="1.8" />

@@ -1,21 +1,14 @@
-package com.example.webapp;
-
-import com.cxy.TestService;
+package com.cxy.webapp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import javax.annotation.Resource;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
+@EnableEurekaClient
 public class WebappApplication {
 
 
 	public static void main(String[] args) {
-
-		TestService testService = new TestService();
-		testService.getMessage();
 		SpringApplication.run(WebappApplication.class, args);
-
-
 	}
 }

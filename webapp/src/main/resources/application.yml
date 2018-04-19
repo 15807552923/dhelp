@@ -1,0 +1,13 @@
+
+server:
+  port: 8081
+spring:
+  application:
+    name: web-app
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@localhost:8100/eureka/
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
