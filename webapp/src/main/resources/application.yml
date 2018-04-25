@@ -1,9 +1,23 @@
 
 server:
-  port: 8081
+  port: 8080
 spring:
   application:
     name: web-app
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/userweb
+    username: root
+    password: spttek
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: update
+
+
+
 eureka:
   client:
     serviceUrl:

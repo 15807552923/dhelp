@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/userweb
+    username: root
+    password: spttek
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: update
+
+
