@@ -1,12 +1,20 @@
 
 server:
   port: 8888
-#使用本地的配置文件
 spring:
   profiles:
     active: native
   application:
     name: config-server
+  cloud:
+   config:
+    server:
+     git:
+       uri: https://github.com/15807552923/springcloudconfig.git
+       search-paths: /**
+    label: master
+    username: 15807552923
+    password: 0061penel.com
 
 eureka:
   client:
