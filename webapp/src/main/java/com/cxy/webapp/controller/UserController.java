@@ -1,10 +1,8 @@
 package com.cxy.webapp.controller;
 import com.cxy.webapp.entity.User;
 import com.cxy.webapp.service.UserService;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -15,7 +13,7 @@ import javax.annotation.Resource;
  * @projectName dhelp
  * @date 2018/04/19
  */
-@Controller
+@RestController
 @RequestMapping("/user")
 public class UserController {
 
@@ -29,4 +27,12 @@ public class UserController {
         User user = userService.getUserInfo(name);
         System.out.println("hello,"+name);
     }
+
+    @Value("${server.port}")
+    String port;
+    @RequestMapping("/hi")
+    public String home(@RequestParam String name) {
+        return "hi "+name+",i am from port:" +port;
+    }
+
 }

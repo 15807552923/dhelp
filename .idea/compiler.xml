@@ -9,13 +9,14 @@
         <module name="admin-service" />
         <module name="common" />
         <module name="commonutils" />
-        <module name="config" />
-        <module name="config-server" />
+        <module name="config2-server" />
         <module name="eureka-server" />
         <module name="eureka-server2" />
         <module name="gateway-service" />
         <module name="log-service" />
         <module name="monitoring-service" />
+        <module name="servcice-ribbon" />
+        <module name="service-ribbon" />
         <module name="uaa-service" />
         <module name="user-service" />
         <module name="web-user" />
@@ -30,13 +31,17 @@
       <module name="commonutils" target="1.7" />
       <module name="config" target="1.7" />
       <module name="config-server" target="1.8" />
+      <module name="config2-server" target="1.8" />
       <module name="dhelp" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server2" target="1.8" />
       <module name="gateway-service" target="1.8" />
+      <module name="inner-tomcat" target="1.8" />
       <module name="log-service" target="1.8" />
       <module name="monitoring-service" target="1.8" />
       <module name="parent" target="1.7" />
+      <module name="servcice-ribbon" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
       <module name="uaa-service" target="1.8" />
       <module name="user-service" target="1.8" />
       <module name="web-user" target="1.8" />

@@ -11,16 +11,15 @@
     <modules>
         <module>parent</module>
         <module>common</module>
-        <module>config</module>
         <module>webservice</module>
         <module>admin-service</module>
-        <module>config-server</module>
         <module>gateway-service</module>
         <module>log-service</module>
         <module>monitoring-service</module>
         <module>uaa-service</module>
         <module>zipkin-service</module>
         <module>eureka-server</module>
+        <module>inner-tomcat</module>
     </modules>
 
 

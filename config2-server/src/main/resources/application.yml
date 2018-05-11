@@ -10,7 +10,7 @@ spring:
    config:
     server:
      git:
-       uri: https://github.com/15807552923/springcloudconfig.git
+       uri: https://github.com/15807552923/dhelp/tree/dev/config2-server
        search-paths: /**
     label: master
     username: 15807552923
