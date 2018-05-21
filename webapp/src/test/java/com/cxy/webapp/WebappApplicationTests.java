@@ -2,6 +2,7 @@ package com.cxy.webapp;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.ValueFilter;
+import com.cxy.webapp.utils.MD5Helper;
 import com.google.common.collect.ImmutableList;
 import jdk.nashorn.internal.runtime.regexp.joni.Regex;
 import org.assertj.core.util.Lists;
@@ -179,6 +180,14 @@ public class WebappApplicationTests {
 			this.name = name;
 		}
 	}
+
+
+	@Test
+	public void  testPassword(){
+		String str = MD5Helper.encrypt32MD5("15914867924","3f30d3");
+		System.out.println("str:"+str);
+	}
+
 
 
 }
