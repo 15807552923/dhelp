@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/config2-server/pom.xml" />
         <option value="$PROJECT_DIR$/inner-tomcat/pom.xml" />
         <option value="$PROJECT_DIR$/servcice-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

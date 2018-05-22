@@ -13,7 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/log-service/log-service.iml" filepath="$PROJECT_DIR$/log-service/log-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitoring-service/monitoring-service.iml" filepath="$PROJECT_DIR$/monitoring-service/monitoring-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/uaa-service/uaa-service.iml" filepath="$PROJECT_DIR$/uaa-service/uaa-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-user/web-user.iml" filepath="$PROJECT_DIR$/web-user/web-user.iml" />

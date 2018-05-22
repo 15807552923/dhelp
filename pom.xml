@@ -19,7 +19,7 @@
         <module>uaa-service</module>
         <module>zipkin-service</module>
         <module>eureka-server</module>
-        <module>inner-tomcat</module>
+        <module>service-zuul</module>
     </modules>
 
 
